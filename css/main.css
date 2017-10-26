@@ -10,69 +10,114 @@
  * Estilos de tu proyecto
  */
 
- *{
- 	box-sizing:  border-box;
- 	border:0 ;
- 	padding:0;
- 	margin: 0;
- 	font-family: 'Montserrat', sans-serif;
- }
+	 *{
+	 	box-sizing:  border-box;
+	 	border:0 ;
+	 	padding:0;
+	 	margin: 0;
+	 	font-family: 'Montserrat', sans-serif;
+	 }
 
-.wall{
-	height: 600px;
-	background-image:url(../assets/images/hero.gif);
-    background-size: cover;
-   } 
+	.wall{
+		height: 600px;
+		background-image:url(../assets/images/hero.gif);
+	    background-size: cover;
+	   } 
 
-nav{
-	outline: 1px solid red;
-	opacity: 0%;
-	height: 100px;
-	width: 100%;
-    margin-right: 100px;
-	position: fixed;
+	nav{
+		outline: 1px solid red;
+		opacity: 0%;
+		height: 100px;
+		width: 100%;
+	   	position: fixed;
+		}
+
+
+	img{
+		width:50px;
+
+	}
+
+	ul,li{
+	   display: inline-block;
+	   list-style: none;
+	   float:right;
+	   margin:10px;
+	   line-height: 30px;
+	  }
+
+	ul li:last-child{
+		color: transparent;
+
+	}
+
+	a{
+	  display: block;
+	  text-decoration: none;
+	  color:#FFF;
+
+
 	}
 
 
-img{
-	width:50px;
 
-}
+	.whitebox{
+	  width:500px;
+	  height:300px;
+	  background-color: #FFF;	
+	  float: right;
+	  margin-top:50px;
 
-ul,li{
-   display: inline-block;
-   list-style: none;
-   float:right;
-   margin:10px;
-   line-height: 30px;
-  }
+	}
 
-ul li:last-child{
-	color: transparent;
+	.whitebox h1, p{
+		color:#352384;
+	    margin-top: 50px;
+	}
+    
+	.btnbecome{
+		background-color: #FF00BF;
+        font-size: 20px;
+  		border-radius: 6px;
+  		padding: 10px 20px;
+  		text-align: center;
+  		margin-top: 50px;
 
-}
+	}
 
-a{
-  display: block;
-  text-decoration: none;
-  color:#FFF;
+    .btnbecome a{
+        color: #FFF;
+    }
 
+    .btnbecome a:hover{
+       cursor: pointer;
+  	}
 
-}
+  	.btnsign a{
+  		color: #728099;
+  	}
+  	.btnsign a:hover{
+  	   color:#FF00BF;	
 
-
-
-.whitebox{
-  width:500px;
-  height:300px;
-  background-color: #FFF;	
-  float: right;
-  margin-top:300px;
-}
-
-/*termina sección wall, empieza two*/
-
-
+  	}
 
 
+    
+	/*termina sección wall, empieza two*/
 
+    .two{
+        width: 400px;
+    	height: 600px;
+    	background: #76278F; /* Old Browsers */
+        background-image: background: -webkit-linear-gradient(#76278F, #2B1E66);
+        background-image: background: -o-linear-gradient(#76278F, #2B1E66);
+        background-image: background: linear-gradient(#76278F, #2B1E66);
+        background: -o-linear-gradient(#76278F, #2B1E66);
+        background: linear-gradient(#76278F, #2B1E66); /*Safari 5.1-6*/ /*Opera 11.1-12*/ /*Fx 3.6-15*/ /*Standard*/
+    }
+
+    .firsttexts{
+    	color: #FFF;
+    }
+
+     
