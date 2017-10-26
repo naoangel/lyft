@@ -1,3 +1,78 @@
 /*
+    Botones, hover: #FF00BF
+    Fondo de footer: #333447
+    Título del formulario: #352384
+    Texto del formulario: #728099
+    Gradiente morado: linear-gradient(#76278F, #2B1E66);
+
+
+
  * Estilos de tu proyecto
  */
+
+ *{
+ 	box-sizing:  border-box;
+ 	border:0 ;
+ 	padding:0;
+ 	margin: 0;
+ 	font-family: 'Montserrat', sans-serif;
+ }
+
+.wall{
+	height: 600px;
+	background-image:url(../assets/images/hero.gif);
+    background-size: cover;
+   } 
+
+nav{
+	outline: 1px solid red;
+	opacity: 0%;
+	height: 100px;
+	width: 100%;
+    margin-right: 100px;
+	position: fixed;
+	}
+
+
+img{
+	width:50px;
+
+}
+
+ul,li{
+   display: inline-block;
+   list-style: none;
+   float:right;
+   margin:10px;
+   line-height: 30px;
+  }
+
+ul li:last-child{
+	color: transparent;
+
+}
+
+a{
+  display: block;
+  text-decoration: none;
+  color:#FFF;
+
+
+}
+
+
+
+.whitebox{
+  width:500px;
+  height:300px;
+  background-color: #FFF;	
+  float: right;
+  margin-top:300px;
+}
+
+/*termina sección wall, empieza two*/
+
+
+
+
+
