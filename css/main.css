@@ -12,11 +12,17 @@
 
 	 *{
 	 	box-sizing:  border-box;
+	 	-webkit-box-sizing: border-box;
+	 	-moz-box-sizing: border-box;
+	 }
+	
+	body {
 	 	border:0 ;
 	 	padding:0;
 	 	margin: 0;
 	 	font-family: 'Montserrat', sans-serif;
-	 }
+		font-size: 16px;
+	}
 
 	.wall{
 		height: 600px;
@@ -24,34 +30,47 @@
 	    background-size: cover;
 	   } 
 
-	nav{
+	nav {
 		outline: 1px solid red;
 		opacity: 0%;
 		height: 100px;
 		width: 100%;
 	   	position: fixed;
+	   	background-color: rgba(0,0,0,0.5);
 		}
 
+	.logo {
+		width: 40%;
+		height: 100%;
+		float: left;
+	}
 
-	img{
-		width:50px;
+	.logo img {
+		width: auto;
+		height: 43%;
+		margin-left: 80px;
+		margin-top: 35px;
 
 	}
 
-	ul,li{
+	.lista-nav {
+		width: 50%;
+		height: 100%;
+		padding-left: 20px;
+		display: inline-block;
+		float: right;
+	}
+
+
+	.lista-nav ul,li{
 	   display: inline-block;
 	   list-style: none;
-	   float:right;
 	   margin:10px;
 	   line-height: 30px;
 	  }
 
-	ul li:last-child{
-		color: transparent;
 
-	}
-
-	a{
+	a {
 	  display: block;
 	  text-decoration: none;
 	  color:#FFF;
@@ -59,21 +78,23 @@
 
 	}
 
-
-
 	.whitebox{
 	  width:500px;
 	  height:300px;
 	  background-color: #FFF;	
 	  float: right;
-	  margin-top:50px;
+	  margin-top:120px;
 
 	}
 
 	.whitebox h1, p{
 		color:#352384;
 	    margin-top: 50px;
+	    margin-left: 30px;
+
 	}
+
+
     
 	.btnbecome{
 		background-color: #FF00BF;
@@ -106,18 +127,39 @@
 	/*termina sección wall, empieza two*/
 
     .two{
-        width: 400px;
+        width: 100%;
     	height: 600px;
+    	margin-top: -20px;
     	background: #76278F; /* Old Browsers */
-        background-image: background: -webkit-linear-gradient(#76278F, #2B1E66);
-        background-image: background: -o-linear-gradient(#76278F, #2B1E66);
-        background-image: background: linear-gradient(#76278F, #2B1E66);
-        background: -o-linear-gradient(#76278F, #2B1E66);
-        background: linear-gradient(#76278F, #2B1E66); /*Safari 5.1-6*/ /*Opera 11.1-12*/ /*Fx 3.6-15*/ /*Standard*/
+        background: -webkit-linear-gradient(#691b84, #2B1E66);
+        background: -o-linear-gradient(#691b84, #2B1E66);
+        background: linear-gradient(#691b84, #2B1E66);
+        background: -o-linear-gradient(#691b84, #2B1E66);
+        background: linear-gradient(#691b84, #2B1E66); /*Safari 5.1-6*/ /*Opera 11.1-12*/ /*Fx 3.6-15*/ /*Standard*/
     }
 
     .firsttexts{
+    	width: 40%;
+    	height: auto;
+    	display: inline-block;
     	color: #FFF;
     }
+
+	.phone {
+		width: 40%;
+		height: auto;
+		display: inline-block;
+	}
+
+	.phone img {
+		width: 500px;
+		height: auto;
+
+	}
+
+
+
+    /* Pie de Pagina */ 
+
 
      
