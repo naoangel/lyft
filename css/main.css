@@ -1,165 +1,172 @@
-/*
-    Botones, hover: #FF00BF
-    Fondo de footer: #333447
-    Título del formulario: #352384
-    Texto del formulario: #728099
-    Gradiente morado: linear-gradient(#76278F, #2B1E66);
+	/*
+	    Botones, hover: #FF00BF
+	    Fondo de footer: #333447
+	    Título del formulario: #352384
+	    Texto del formulario: #728099
+	    Gradiente morado: linear-gradient(#76278F, #2B1E66);
 
 
 
- * Estilos de tu proyecto
- */
+	 * Estilos de tu proyecto
+	 */
 
-	 *{
-	 	box-sizing:  border-box;
-	 	-webkit-box-sizing: border-box;
-	 	-moz-box-sizing: border-box;
-	 }
-	
-	body {
-	 	border:0 ;
-	 	padding:0;
-	 	margin: 0;
-	 	font-family: 'Montserrat', sans-serif;
-		font-size: 16px;
-	}
+		 *{
+		 	box-sizing:  border-box;
+		 	-webkit-box-sizing: border-box;
+		 	-moz-box-sizing: border-box;
+		 }
 
-	.wall{
-		height: 600px;
-		background-image:url(../assets/images/hero.gif);
-	    background-size: cover;
-	   } 
-
-	nav {
-		outline: 1px solid red;
-		opacity: 0%;
-		height: 100px;
-		width: 100%;
-	   	position: fixed;
-	   	background-color: rgba(0,0,0,0.5);
+		 *:before, *:after {
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		
+		body {
+		 	border:0 ;
+		 	padding:0;
+		 	margin: 0;
+		 	font-family: 'Montserrat', sans-serif;
+			font-size: 16px;
 		}
 
-	.logo {
-		width: 40%;
-		height: 100%;
-		float: left;
-	}
+		.wall{
+			height: 600px;
+			background-image:url(../assets/images/hero.gif);
+		    background-size: cover;
+		   } 
 
-	.logo img {
-		width: auto;
-		height: 43%;
-		margin-left: 80px;
-		margin-top: 35px;
+		nav {
+			outline: 1px solid red;
+			opacity: 0%;
+			height: 100px;
+			width: 100%;
+		   	position: fixed;
+		   	margin-left: ;
+		   	/*}background-color: rgba(0,0,0,0.5);*/
+		   	vertical-align: auto;
+			}
 
-	}
+		.logo {
+			width: 40%;
+			height: 100%;
+			float: left;
+		}
 
-	.lista-nav {
-		width: 50%;
-		height: 100%;
-		padding-left: 20px;
-		display: inline-block;
-		float: right;
-	}
+		.logo img {
+			width: auto;
+			height: 43%;
+			margin-left: 80px;
+			margin-top: 20px;
 
+		}
 
-	.lista-nav ul,li{
-	   display: inline-block;
-	   list-style: none;
-	   margin:10px;
-	   line-height: 30px;
-	  }
-
-
-	a {
-	  display: block;
-	  text-decoration: none;
-	  color:#FFF;
-
-
-	}
-
-	.whitebox{
-	  width:500px;
-	  height:300px;
-	  background-color: #FFF;	
-	  float: right;
-	  margin-top:120px;
-
-	}
-
-	.whitebox h1, p{
-		color:#352384;
-	    margin-top: 50px;
-	    margin-left: 30px;
-
-	}
+		.lista-nav {
+			width: 50%;
+			height: 100%;
+			padding-left: 100px;
+			display: inline-block;
+			float: right;
+		}
 
 
-    
-	.btnbecome{
-		background-color: #FF00BF;
-        font-size: 20px;
-  		border-radius: 6px;
-  		padding: 10px 20px;
-  		text-align: center;
-  		margin-top: 50px;
-
-	}
-
-    .btnbecome a{
-        color: #FFF;
-    }
-
-    .btnbecome a:hover{
-       cursor: pointer;
-  	}
-
-  	.btnsign a{
-  		color: #728099;
-  	}
-  	.btnsign a:hover{
-  	   color:#FF00BF;	
-
-  	}
+		.lista-nav ul,li{
+		   display: inline-block;
+		   list-style: none;
+		   margin:10px;
+		   line-height: 30px;
+		  }
 
 
-    
-	/*termina sección wall, empieza two*/
-
-    .two{
-        width: 100%;
-    	height: 600px;
-    	margin-top: -20px;
-    	background: #76278F; /* Old Browsers */
-        background: -webkit-linear-gradient(#691b84, #2B1E66);
-        background: -o-linear-gradient(#691b84, #2B1E66);
-        background: linear-gradient(#691b84, #2B1E66);
-        background: -o-linear-gradient(#691b84, #2B1E66);
-        background: linear-gradient(#691b84, #2B1E66); /*Safari 5.1-6*/ /*Opera 11.1-12*/ /*Fx 3.6-15*/ /*Standard*/
-    }
-
-    .firsttexts{
-    	width: 40%;
-    	height: auto;
-    	display: inline-block;
-    	color: #FFF;
-    }
-
-	.phone {
-		width: 40%;
-		height: auto;
-		display: inline-block;
-	}
-
-	.phone img {
-		width: 500px;
-		height: auto;
-
-	}
+		a {
+		  display: block;
+		  text-decoration: none;
+		  color:#FFF;
 
 
+		}
 
-    /* Pie de Pagina */ 
+		.whitebox{
+		  width:500px;
+		  height:300px;
+		  background-color: #FFF;	
+		  float: right;
+		  margin-top:120px;
+
+		}
+
+		.whitebox h1, p{
+			color:#352384;
+		    margin-top: 50px;
+		    margin-left: 30px;
+
+		}
 
 
-     
+	    
+		.btnbecome{
+			background-color: #FF00BF;
+	        font-size: 20px;
+	  		border-radius: 6px;
+	  		padding: 10px 20px;
+	  		text-align: center;
+	  		margin-top: 50px;
+
+		}
+
+	    .btnbecome a{
+	        color: #FFF;
+	    }
+
+	    .btnbecome a:hover{
+	       cursor: pointer;
+	  	}
+
+	  	.btnsign a{
+	  		color: #728099;
+	  	}
+	  	.btnsign a:hover{
+	  	   color:#FF00BF;	
+
+	  	}
+
+
+	    
+		/*termina sección wall, empieza two*/
+
+	    .two{
+	        width: 100%;
+	    	height: 600px;
+	    	margin-top: -20px;
+	    	background: #76278F; /* Old Browsers */
+	        background: -webkit-linear-gradient(#691b84, #2B1E66);
+	        background: -o-linear-gradient(#691b84, #2B1E66);
+	        background: linear-gradient(#691b84, #2B1E66);
+	        background: -o-linear-gradient(#691b84, #2B1E66);
+	        background: linear-gradient(#691b84, #2B1E66); /*Safari 5.1-6*/ /*Opera 11.1-12*/ /*Fx 3.6-15*/ /*Standard*/
+	    }
+
+	    .firsttexts{
+	    	width: 40%;
+	    	height: auto;
+	    	display: inline-block;
+	    	color: #FFF;
+	    }
+
+		.phone {
+			width: 40%;
+			height: auto;
+			display: inline-block;
+		}
+
+		.phone img {
+			width: 500px;
+			height: auto;
+
+		}
+
+
+
+	    /* Pie de Pagina */ 
+
+
+	     
